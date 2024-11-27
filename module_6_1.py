@@ -35,22 +35,11 @@ class Flower(Plant): # цветы
 class Fruit(Plant): # фрукты
     edible = True
 
-
-
 animal_1 = Predator('Кот')
 animal_2 = Mammal('Корова')
 
 plant_1 = Flower('Ромашка')
 plant_2 = Fruit('Яблоко')
-
-
-#
-#
-# animal_2.eat(plant_2)
-#
-# animal_3.eat(plant_3)
-#
-# animal_4.eat(plant_4)
 
 print(animal_1.name_animal)
 print(plant_1.name_plant)
